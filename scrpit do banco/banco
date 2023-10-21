@@ -1,0 +1,8 @@
+create table  cliente (
+id int not null  auto_increment primary key,
+nome varchar (45) not null,
+email varchar(85) not null,
+telefone varchar(30) not null,
+idade date not null,
+grupo varchar(10)  not null
+ );
